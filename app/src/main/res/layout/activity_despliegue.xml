@@ -10,11 +10,12 @@
     tools:context=".Despliegue">
 
     <LinearLayout
+
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
         android:padding="24dp">
-
+        
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
@@ -26,6 +27,7 @@
                 android:layout_alignParentStart="true"
                 app:cardCornerRadius="24dp"
                 app:cardElevation="0dp">
+
                 <ImageView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
@@ -45,6 +47,7 @@
                     android:layout_marginEnd="12dp"
                     app:cardCornerRadius="24dp"
                     app:cardElevation="0dp">
+
                     <ImageView
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
@@ -57,6 +60,7 @@
                     android:layout_height="48dp"
                     app:cardCornerRadius="24dp"
                     app:cardElevation="0dp">
+
                     <ImageView
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
@@ -70,7 +74,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="32dp"
-            android:text="Lecture"
+            android:text="Lectura"
             android:textColor="#555555"
             android:textSize="18sp" />
 
@@ -78,7 +82,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:lineSpacingExtra="-8dp"
-            android:text="Spatial\nAptitude"
+            android:text="Actitud espacial"
             android:textColor="#111111"
             android:textSize="48sp"
             android:textStyle="bold" />
@@ -97,11 +101,12 @@
                 app:cardBackgroundColor="#D6CAE8"
                 app:cardCornerRadius="24dp"
                 app:cardElevation="0dp">
+
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:gravity="center"
-                    android:text="Literature"
+                    android:text="Literatura"
                     android:textColor="#333333" />
             </androidx.cardview.widget.CardView>
 
@@ -113,6 +118,7 @@
                 app:cardBackgroundColor="#1A1A1A"
                 app:cardCornerRadius="24dp"
                 app:cardElevation="0dp">
+
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
@@ -128,6 +134,7 @@
                 app:cardBackgroundColor="#D6CAE8"
                 app:cardCornerRadius="24dp"
                 app:cardElevation="0dp">
+
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
@@ -199,7 +206,7 @@
                                 <TextView
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
-                                    android:text="Perspective Basics"
+                                    android:text="Perspectivas basicas"
                                     android:textColor="#222"
                                     android:textStyle="bold" />
                                 <TextView
@@ -256,7 +263,7 @@
                                 <TextView
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
-                                    android:text="Mental Folding Exercises"
+                                    android:text="Ejercicios mentales"
                                     android:textColor="#222"
                                     android:textStyle="bold" />
                                 <TextView
@@ -313,7 +320,7 @@
                                 <TextView
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
-                                    android:text="Spatial Logic in Design"
+                                    android:text="Logica en diseño"
                                     android:textColor="#222"
                                     android:textStyle="bold" />
                                 <TextView
@@ -368,7 +375,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Your progress"
+                        android:text="Tu rogreso"
                         android:textColor="#888888"
                         android:textSize="12sp" />
 
@@ -383,7 +390,7 @@
                     <TextView
                         android:layout_width="120dp"
                         android:layout_height="wrap_content"
-                        android:text="Of the topic has been successfully covered."
+                        android:text="TU progreso esta guardado correctamente"
                         android:textColor="#888888"
                         android:textSize="10sp" />
                 </LinearLayout>
